@@ -33,7 +33,7 @@ TextureImporter:
       213: 4326287474489854147
     second: Enemy A Hit
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -93,7 +93,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -275,7 +274,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 6}
+        - {x: -1, y: -12}
+        - {x: 1, y: -12}
+        - {x: 12, y: 5}
+        - {x: 12, y: 12}
       tessellationDetail: 0
       bones: []
       spriteID: 403d85e4b6c9310f0800000000000000
@@ -338,7 +343,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 6}
+        - {x: -1, y: -12}
+        - {x: 1, y: -12}
+        - {x: 12, y: 6}
+        - {x: 12, y: 12}
       tessellationDetail: 0
       bones: []
       spriteID: ea74ea1de65822390800000000000000
@@ -379,16 +390,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boss 0: 2192450021786810173
-      Boss 1: -7537196482120660328
-      Boss 2: -860468679390908754
-      Boss Hit: -7945901444079236628
-      Enemy A: 8414478535512612329
-      Enemy A Hit: 4326287474489854147
-      Enemy B: -1147401495359466748
-      Enemy B Hit: -7844560889915226194
-      Enemy C: -8421458170528590454
       Enemy C Hit: 3714015224569861163
+      Boss 0: 2192450021786810173
+      Enemy A Hit: 4326287474489854147
+      Enemy C: -8421458170528590454
+      Enemy B: -1147401495359466748
+      Boss Hit: -7945901444079236628
+      Boss 2: -860468679390908754
+      Enemy B Hit: -7844560889915226194
+      Boss 1: -7537196482120660328
+      Enemy A: 8414478535512612329
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
