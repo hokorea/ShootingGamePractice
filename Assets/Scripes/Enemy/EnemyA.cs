@@ -53,8 +53,8 @@ public class EnemyA : Enemy
         canAttack = true;
     }
 
-    //public override void Move()
-    //{
-    //    transform.position += Vector3.down * moveSpeed * Time.deltaTime;
-    //}
+    public override void Move()
+    {
+        transform.position += Vector3.down * moveSpeed * Time.deltaTime;
+    }
 }

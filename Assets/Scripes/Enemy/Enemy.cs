@@ -33,6 +33,16 @@ public class Enemy : MonoBehaviour
 
     public void Hit(int Damage)
     {
+        hp -= Damage;
+        if (hp <= 0)
+        {
+            DropItem();
+            Destroy(gameObject);
+        }
+    }
+
+    void DropItem()
+    {
 
     }
 }
